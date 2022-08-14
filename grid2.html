@@ -8,14 +8,14 @@ h1 {font-size:300%; text-align:center;
   border-bottom:1px solid gray;
   padding:40px;
 margin:0;}
-#grid ol {border-right:1px solid gray;
-   width:50%;
-  margin:0;
-  padding:50px;}
-  body{margin:0;}
-#grid {display:grid; grid-template-columns: 200px 1fr;}
-#article{padding-left:50px;
-padding-right:50px;}
+body{margin:0;}
+#grid ol{border-right:1px solid gray; width:100px; margin:0;
+  padding:35px;}
+#grid {display:grid; grid-template-columns:200px 1fr;}
+@media(max-width:800px){
+  #grid {display:block;} #grid ol{border-right:none;}
+  h1 {border-bottom:none;}
+}
 </style>
 <body>
 
@@ -26,10 +26,9 @@ padding-right:50px;}
   <li><a href="2.html">Active소개</a></li>
   <li><a href="3.html">등록</a></li></ol>
 
-  <div id="article">
+<div>
   <h2>crossfit</h2>
   <P>이름에서부터 알 수 있듯이 크로스핏의 핵심은 '크로스 오버(Cross Over)'다. 파워리프팅의 '최대근력', 역도의 '파워', 육상의 '스피드', 기계 체조의 '협응력'... 서로 다른 영역을 한 데 모으니 자연히 장비도 다양해진다. 아령과 역기 이외에도 크로스핏 체육관에는 대중에게 생소한 운동장비들이 즐비하다. 케틀벨, 메디신볼, 우드링, 에어바이크, 스키, 로잉, 샌드백, 타이어, 심지어 밧줄까지(...) 수많은 종목들을 취합하다보니 나타난 자연스러운 결과다. 미국에서 처음 창안된 트레이닝 방법이다 보니, 한국에 있는 박스들이라도 그날의 와드 내용은 모두 영어 그대로 적어 놓는데, 후술하겠지만 최대한 간결하게 나타내기 위함인지 WOD, AMRAP, Rx'd 같은 두문자어, 축약어를 많이 사용한다. 때문에 크로스핏을 처음 접하는 사람은 칠판에 적힌 커리큘럼을 보면 암호(...) 같다는 느낌을 받을 수도 있다.</p>
-  </div>
-
+</div>
 </div>
 </body>
